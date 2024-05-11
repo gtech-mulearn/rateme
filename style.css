@@ -1,22 +1,29 @@
 .details {
   display: flex;
   gap: 1rem;
+  width: 50vw;
   background-color: rgba(0, 0, 0, 0.3);
-  justify-content: space-around;
   height: fit-content;
+  border-radius: 1.7rem;
+  width: 30vw;
   padding: 1rem 0;
   margin: 4rem;
 }
 .data-flex {
   display: flex;
-  width: 100%;
-  gap: 1rem;
-  font-size: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
 }
 
 .img-flex {
   height: 5rem;
   width: 5rem;
+  border-radius: 50%;
   background-color: aliceblue;
   margin: 0 1rem;
+}
+
+.name_text{
+  font-size: 2rem;
 }
