@@ -1,0 +1,22 @@
+.details {
+  display: flex;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: space-around;
+  height: fit-content;
+  padding: 1rem 0;
+  margin: 4rem;
+}
+.data-flex {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  font-size: 3rem;
+}
+
+.img-flex {
+  height: 5rem;
+  width: 5rem;
+  background-color: aliceblue;
+  margin: 0 1rem;
+}
